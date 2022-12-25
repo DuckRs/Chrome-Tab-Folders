@@ -1,0 +1,13 @@
+// manifest.json
+{
+  "manifest_version": 2,
+  "name": "Tab Sorter",
+  "description": "Sort your tabs into folders based on their URLs.",
+  "version": "1.0",
+  "permissions": ["tabs", "bookmarks"],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Sort Tabs",
+    "default_popup": "popup.html"
+  }
+}
